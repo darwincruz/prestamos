@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Form Login</title>
+    <link rel="stylesheet" href="Style/css/style.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="LoginBox">
+
+            <img class="avatarlog" src="Style/images/Icons/EasyB.jpg" alt="LogIcon">
+            <h1>Log in</h1>
+            <form action="Functions/Validate.php" method="POST">
+                <!--Here the Username TexBox code-->
+                <label for="Username">Username</label>
+                <input type="text" placeholder="Enter Username" name="Username">
+
+                <!--Here the Password TextBox-->
+                <label for="Password">Password</label>
+                <input type="password" placeholder="Enter Password" name="Password">
+
+                <!--Here the Submit Button-->
+                <input type="submit" Value="Submit"><br>
+
+                <!-- Lose and create Account -->
+                <a href="#">Lost Your Password?</a><br>
+                <a href="#">Don't have an account?</a>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
